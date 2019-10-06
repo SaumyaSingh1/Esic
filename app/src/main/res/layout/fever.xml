@@ -10,8 +10,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:alpha="0.6"
     android:orientation="vertical"
-    android:background="@drawable/abc">
+    android:background="@drawable/dp">
 
     <TextView
         android:id="@+id/textView3"
@@ -20,6 +21,7 @@
         android:layout_gravity="center"
         android:layout_margin="30dp"
         android:text="Prescription"
+        android:gravity="center"
         android:textColor="#b4c2f0"
         android:textSize="32dp"
         android:textStyle="bold"
@@ -31,11 +33,12 @@
         android:id="@+id/textView4"
         android:layout_width="373dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:maxLines="10"
 
 
         android:text=" 1.Drink plenty of fluids\n2.Rest\n3.Stay cool \n4.PCM(500gm adults,250gm infants"
-        android:textColor="#0a0501"
+        android:textColor="#fff"
         android:textStyle="bold"
         android:textSize="21dp"
 
@@ -62,8 +65,9 @@
 
     <Button
         android:layout_width="71dp"
+        android:id="@+id/btnPrint"
         android:layout_height="35dp"
-        android:layout_marginLeft="140dp"
+        android:layout_gravity="center"
         android:layout_marginBottom="1dp"
         android:background="#ba2e0b"
         android:text="PRINT"
